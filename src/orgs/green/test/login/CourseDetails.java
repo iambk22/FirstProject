@@ -11,13 +11,17 @@ public class CourseDetails {
        System.out.println("Python course not started");
        
     }
+	private void gitCourse() {
+		System.out.println("Git Course Started");
+
+	}
 	public static void main(String[] args) {
 		CourseDetails s = new CourseDetails();
 		System.out.println("Just Checking");
 		
 		s.javaCourse();
 		s.pythonCourse();
-		
+		s.gitCourse();
 	}
 
 }
