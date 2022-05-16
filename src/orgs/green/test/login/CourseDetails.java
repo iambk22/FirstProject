@@ -1,27 +1,27 @@
 package orgs.green.test.login;
 
 public class CourseDetails {
-	private void javaCourse() {
+	private void jUnit() {
 		
-		System.out.println("Java Course Started");
+		System.out.println("Junit Course Started");
 
 	}
-	private void jenkinsCourse() {
+	private void testNg() {
 		
-       System.out.println("Jenkins course not started");
+       System.out.println("TestNg course not started");
        
     }
-	private void gitCourse() {
-		System.out.println("Git Course Started");
+	private void cucumber() {
+		System.out.println("Cucumber Course Started");
 
 	}
 	public static void main(String[] args) {
 		CourseDetails s = new CourseDetails();
 		System.out.println("Just Checking");
 		
-		s.javaCourse();
-		s.jenkinsCourse();
-		s.gitCourse();
+		s.jUnit();
+		s.testNg();
+		s.cucumber();
 	}
 
 }
