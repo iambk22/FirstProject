@@ -6,9 +6,9 @@ public class CourseDetails {
 		System.out.println("Java Course Started");
 
 	}
-	private void pythonCourse() {
+	private void jenkinsCourse() {
 		
-       System.out.println("Python course not started");
+       System.out.println("Jenkins course not started");
        
     }
 	private void gitCourse() {
@@ -20,7 +20,7 @@ public class CourseDetails {
 		System.out.println("Just Checking");
 		
 		s.javaCourse();
-		s.pythonCourse();
+		s.jenkinsCourse();
 		s.gitCourse();
 	}
 
